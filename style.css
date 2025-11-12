@@ -1,3 +1,16 @@
+/* 1. DEFINE YOUR CUSTOM FONT */
+@font-face {
+  font-family: 'League Gothic';
+  src: url('LeagueGothic-Regular-VariableFont_wdth.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2. CREATE A UTILITY CLASS FOR THE FONT */
+.font-league-gothic {
+  font-family: 'League Gothic', sans-serif;
+  letter-spacing: 0.05em; /* Added for a bit more spacing */
+}
 /*
   =====================================================
   1. DEFINE YOUR CUSTOM FONT

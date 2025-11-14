@@ -143,10 +143,6 @@ html.dark .whatsapp-button:hover {
     width: 90%;
 }
 
-.slider-button {
-    @apply bg-white text-indigo-800 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-indigo-100 transition-all;
-}
-
 /* Make the button look right in CSS */
 .slider-button {
   background-color: white;
